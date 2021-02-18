@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="./desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="./phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&amp;display=swap" rel="stylesheet">
+    <style></style>
+</head>
+<div class="title">
+    <!-- <a class="symb">&#9764;</a>--><img class="symb" src="./images/symboltitle.png" alt=""><a class="title" id="home" href="./index">Home</a><a class="title" id="home" href="./about">About</a><a class="title" id="home" href="./contact">Contact Us</a>
+</div>
+<form action="/" method="post">
+    <div class="textinfo">
+        <input type="text" name="pname" id="pname" placeholder="Enter Your Name" required>
+        <input type="text" name="age" id="age" placeholder="Enter Your Age" required>
+    </div>
+    <div class="radbt">
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+    </div>
+    <div class="aptime">
+        <label for="aptime">Enter Time of Appointment:</label>
+        <input type="time" id="aptime" name="aptime" required>
+    </div>
+    <div class="apdate">
+        <label for="apdate">Enter Date for Appointment:</label>
+        <input type="date" name="apdate" id="apdate" required>
+    </div>
+    <button type="submit" id="submit">Submit</button>
+</form><br>
+<div class="container">
+    <h1><span id="time"></span><span id="date"></span><span id="day"></span></h1>
+</div>
+<script src="./watch.js"></script>
+<div class="end">Designed &amp; developed by Karunesh Tripathi &copy; Kt</div>
