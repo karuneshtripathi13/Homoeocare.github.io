@@ -81,7 +81,7 @@ html,body
     float: left;
     padding-right:1%;
     text-align: justify;
-    padding-left: 1%;
+    padding-left: 2%;
     font-size: 2.9vw;
     font-weight: bold;
     margin:0 0 2% 2%
@@ -95,14 +95,15 @@ html,body
     float: right;
     text-align: justify;
     padding-top: 0%;
-    padding-left:1%;
+    padding-left:2%;
     font-size: 2.9vw;
     font-weight: bold;
     margin:0 2% 2% 0
 }
 .cent{
     float: center;
-    padding-left: -20%;
+    align-items: center;
+    padding-left: 0%;
     padding-top: 1.5%;
 }
 #symbol{
