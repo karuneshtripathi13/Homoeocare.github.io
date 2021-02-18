@@ -113,6 +113,9 @@ html,body
     height: 25vw;
     margin-bottom: 4%;
 }
+.symbol{
+    width: 20vw;
+}
 .images{
     width:96.5vw; height:50vw;
 }
